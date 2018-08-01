@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="calculator-style.css">
+</head>
+<body>
+    <div align:"center"></div>
+    <!-- <h1>"calculator"</h1>
+  
+    <div  class="calculator">
+  <form name="calci">
+        <input type="text" name="calculator-display" id="display"></div>
+    <p>
+        <input class="calculator-key" type="button" value="7" onclick='math("7")'>
+        <input class="calculator-key" type="button" value="8"onclick='math("8")'>
+        <input class="calculator-key" type="button" value="9" onclick='math("9")'>
+        <input class="calculator-key" type="button" value="Clear"onclick='clr("")'>
+        <input class="calculator-key" type="button" value="*"onclick='math("*")'>
+    </p>
+
+   <p>   
+            
+       <input class="calculator-key" type="button" value="4"onclick='math("4")'>
+       <input class="calculator-key" type="button" value="5"onclick='math("5")'>
+       <input class="calculator-key" type="button" value="6"onclick='math("6")'>
+      <input class="calculator-key" type="button" value="/"onclick='math("/")'>
+      <input class="calculator-key" type="button" value="%"onclick='math("%")'>
+                    
+    </p>    
+    <p>     
+         <input class="calculator-key" type="button" value="1"onclick='math("1")'>
+         <input class="calculator-key" type="button" value="2"onclick='math("2")'>
+         <input class="calculator-key" type="button" value="3"onclick='math("3")'>
+         <input class="calculator-key" type="button" value="-"onclick='math("-")'>
+     </p>           
+     <p>
+        <input class="calculator-key" type="button" value="." onclick='math(".")'>
+        <input class="calculator-key" type="button" value="0"onclick='math("0")'>
+        <input class="calculator-key" type="button" value="="onclick="answer()">
+        <input class="calculator-key" type="button" value="+"onclick='math("+")'>
+    </p>           
+           
+    </form> -->
+
+        <div class="calculator">
+            <form name="calci">
+                <input class="display-unit" type="text" name="calculator-display" id="display" />
+                <div class="row">
+                    <input class="calculator-key" type="button" value="AC" onclick='clr("")'>
+                    <input class="calculator-key" type="button" value="^" onclick='math("^")'>
+                    <input class="calculator-key" type="button" value="%" onclick='math("%")'>
+                    <input class="calculator-key" type="button" value="/" onclick='math("/")'>
+                </div>
+                <div class="row">
+                    <input class="calculator-key" type="button" value="7" onclick='math("7")'>
+                    <input class="calculator-key" type="button" value="8" onclick='math("8")'>
+                    <input class="calculator-key" type="button" value="9" onclick='math("9")'>
+                    <input class="calculator-key" type="button" value="*" onclick='math("*")'>
+                </div>
+                <div class="row">
+                    <input class="calculator-key" type="button" value="4" onclick='math("4")'>
+                    <input class="calculator-key" type="button" value="5" onclick='math("5")'>
+                    <input class="calculator-key" type="button" value="6" onclick='math("6")'>
+                    <input class="calculator-key" type="button" value="-" onclick='math("-")'>
+                </div>
+                <div class="row">
+                    <input class="calculator-key" type="button" value="1" onclick='math("1")'>
+                    <input class="calculator-key" type="button" value="2" onclick='math("2")'>
+                    <input class="calculator-key" type="button" value="3" onclick='math("3")'>
+                    <input class="calculator-key" type="button" value="+" onclick='math("+")'>
+                </div>
+                <div class="row">
+                    <input class="calculator-key big-button" type="button" value="0" onclick='math("0")'>
+                    <input class="calculator-key" type="button" value="." onclick='math(".")'>
+                    <input class="calculator-key" type="button" value="=" onclick='answer()'>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>

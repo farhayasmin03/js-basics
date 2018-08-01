@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.login-page{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #000;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align:center;
+    background:gray;
+    font-size:20px;
+
+}
+#form-switch{
+   display:none
+}
+
+
+#registration-page{
+    display:none;
+}
+#form-switch:checked~#registration-page{
+    display:block;
+}
+#form-switch:checked~#login-form{
+    display:none;
+}

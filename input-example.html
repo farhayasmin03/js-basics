@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input field example</title>
+    <style>
+        body{
+            font-size: 24px;
+        }
+        input{
+            font-size: 24px;
+            border-radius: 10px;
+            border: 2px solid green;
+        }
+        button{
+            font-size: 20px;
+            background: green;
+            border: none;
+            padding: 16px;
+            border-radius: 10px;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <p>Enter your name here:</p>
+    <input type="text" id="nameField"/><br/><br/>
+    <p>City:</p>
+    <input type="text" id="cityField"/><br/><br/> 
+    <button onclick="submitForm()">Submit form</button>
+    <script src="index.js"></script>
+</body>
+</html>
